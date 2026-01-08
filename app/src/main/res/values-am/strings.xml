@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>  <string name="app_name">ኢቲ-ትራክ</string>
+    <string name="login">ግባ</string>
+    <string name="register">ተመዝገብ</string>
+    <string name="email">ኢሜይል</string>
+    <string name="password">የይለፍ ቃል</string>
+    <string name="full_name">ሙሉ ስም</string>
+    <string name="no_account">አካውንት የለዎትም? ይመዝገቡ</string>
+    <string name="already_account">አካውንት አለዎት? ይግቡ</string>
+    <string name="welcome_back">እንኳን ደህና መጡ</string></resources>
