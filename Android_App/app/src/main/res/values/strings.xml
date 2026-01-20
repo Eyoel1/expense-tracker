@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">BirrWise</string>
+    <string name="slogan">Your Localized Finance Assistant</string>
+
+    <!-- Login Screen -->
+    <string name="login_title">BirrWise Login</string>
+    <string name="email_hint">Email Address</string>
+    <string name="password_hint">Password</string>
+    <string name="btn_login">Login Securely</string>
+    <string name="btn_signup_link">Don\'t have an account? Sign Up</string>
+    <string name="switch_lang">Change Language to AMHARIC</string>
+
+    <!-- Dashboard -->
+    <string name="balance_title">Total Balance (Net)</string>
+    <string name="welcome_msg">Welcome</string>
+    <string name="btn_add_expense">Add Expense</string>
+    <string name="btn_receipt">Receipt</string>
+    <string name="btn_graph">Visual Analytics</string>
+    <string name="btn_edir">Manage Edir</string>
+    <string name="btn_profile">Profile</string>
+
+    <!-- Add Expense -->
+    <string name="new_expense_title">New Expense</string>
+    <string name="amount">Amount</string>
+    <string name="category">Category</string>
+    <string name="description">Description / Note</string>
+    <string name="save_record">Save Record</string>
+</resources>

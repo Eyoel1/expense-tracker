@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="#F8F9FA">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Expense"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#333"/>
+
+        <!-- AMOUNT INPUT -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Amount (Br)"
+            android:layout_marginTop="20dp"/>
+
+        <EditText
+            android:id="@+id/etAmount"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="0.00"
+            android:inputType="numberDecimal"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#D32F2F"
+            android:backgroundTint="#D32F2F"/>
+
+        <!-- CATEGORY (Robust Dropdown) -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Category"
+            android:layout_marginTop="20dp"/>
+
+        <Spinner
+            android:id="@+id/spinnerCategory"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="8dp"
+            android:background="@android:drawable/btn_dropdown"
+            android:spinnerMode="dialog"/>
+
+        <!-- DESCRIPTION -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Note / Description"
+            android:layout_marginTop="20dp"/>
+
+        <EditText
+            android:id="@+id/etDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="e.g. Lunch at Bole"
+            android:background="@android:color/white"
+            android:padding="12dp"/>
+
+        <!-- PAYMENT METHOD (Context Specific) -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Payment Method"
+            android:layout_marginTop="20dp"/>
+
+        <RadioGroup
+            android:id="@+id/rgPayment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <RadioButton
+                android:id="@+id/rbCash"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Cash"
+                android:checked="true"/>
+
+            <RadioButton
+                android:id="@+id/rbTelebirr"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Telebirr"/>
+
+            <RadioButton
+                android:id="@+id/rbCbe"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="CBE"/>
+        </RadioGroup>
+
+        <!-- SAVE BUTTON -->
+        <Button
+            android:id="@+id/btnSaveExpense"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Save Record"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="#2E7D32"/>
+
+    </LinearLayout>
+</ScrollView>

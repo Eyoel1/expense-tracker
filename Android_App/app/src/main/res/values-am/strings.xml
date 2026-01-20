@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BirrWise (ብር-ዋይዝ)</string>
+    <string name="slogan">የእርስዎ የፋይናንስ አጋር</string>
+
+    <!-- Login Screen -->
+    <string name="login_title">ይግቡ</string>
+    <string name="email_hint">ኢሜይል</string>
+    <string name="password_hint">የይለፍ ቃል</string>
+    <string name="btn_login">በአስተማማኝ ሁኔታ ይግቡ</string>
+    <string name="btn_signup_link">መለያ የለዎትም? ይመዝገቡ</string>
+    <string name="switch_lang">ቋንቋ ወደ እንግሊዝኛ ቀይር</string>
+
+    <!-- Dashboard -->
+    <string name="balance_title">ጠቅላላ ቀሪ ሂሳብ</string>
+    <string name="welcome_msg">እንኳን ደህና መጡ</string>
+    <string name="btn_add_expense">ወጪ ጨምር</string>
+    <string name="btn_receipt">ደረሰኝ እይ</string>
+    <string name="btn_graph">ግራፍ / ትንታኔ</string>
+    <string name="btn_edir">የእድር ክፍያ</string>
+    <string name="btn_profile">መገለጫ</string>
+
+    <!-- Add Expense -->
+    <string name="new_expense_title">አዲስ ወጪ አስገባ</string>
+    <string name="amount">መጠን (ብር)</string>
+    <string name="category">የወጪ አይነት</string>
+    <string name="description">ማብራሪያ</string>
+    <string name="save_record">መዝግብ</string>
+</resources>
